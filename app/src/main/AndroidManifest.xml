@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.hypatiasoftwaresolutions.apps.plotdatacalculator" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".PlotMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".NewCalculation"
+            android:label="@string/title_activity_new_calculation" >
+        </activity>
+        <activity
+            android:name=".Result_in_table"
+            android:label="@string/title_activity_result_in_table" >
+        </activity>
+        <activity
+            android:name=".SavedCalculation"
+            android:label="@string/title_activity_saved_calculation" >
+        </activity>
+        <activity
+            android:name=".Data_in_Database"
+            android:label="@string/title_activity_data_in__database" >
+        </activity>
+        <activity
+            android:name=".Next_Data_in_Database"
+            android:label="@string/title_activity_next__data_in__database" >
+        </activity>
+        <activity
+            android:name=".List_of_data"
+            android:label="@string/title_activity_list_of_data" >
+        </activity>
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SavedDataInDataBase"
+            android:label="@string/title_activity_saved_data_in_data_base" >
+        </activity>
+        <activity
+            android:name=".Insert_Data_In_Database"
+            android:label="@string/title_activity_insert__data__in__database" >
+        </activity>
+        <activity
+            android:name=".Downloaded_Data"
+            android:label="@string/title_activity_downloaded__data" >
+        </activity>
+        <activity
+            android:name=".DownloadDataList"
+            android:label="@string/title_activity_download_data_list" >
+        </activity>
+    </application>
+
+</manifest>
